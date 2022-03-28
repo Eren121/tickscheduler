@@ -1,6 +1,11 @@
 # tickscheduler
 
-Tick-based scheduler written in C++11
+Tick-based scheduler written in C++11.
+
+## What does that mean ?
+
+It is exaclty like **cron**, but instead of working in time intervals, it use integral ticks. This has the flexibility of pausing or change the speed of the scheduler, as the user decides what a tick is. To behave exactly like cron, the user has just to define a tick as a second and update the scheduler each second.
+
 
 ## Example
 
